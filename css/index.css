@@ -32,7 +32,7 @@
 
 	.button
 	{ 
-	   margin-top: 30px;
+	   margin-top: 20px;
 	  
 	} 
 	
@@ -47,53 +47,48 @@
 	   margin-top: 20px;
 	   margin-left: 60px;
 	} 
-	[class*="col-md"] {
-  width: 100%;
-}
+	.img 
+		{
+			margin-top: 120PX;
+		
+			margin-bottom: 30px;
+		}
 
   @media only screen and (max-width: 600px)
 	{
+
 		.img 
 		{
 			margin-top: 120PX;
-		  	margin-left: 80px;
-			margin-bottom: 50px;
-		}
-		.button
-		{ 
-	  		
 			margin-left: 60px;
-		} 
+			margin-bottom: 30px;
+		}
+	
 		.text
 	{ 
 	   
 	   margin-top: 20px;
-	   margin-left: 90px;
+	 
 	} 
-
+		.button
+	{ 
+	   margin-left: 50px;
+	  
+	} 
 	}
 	@media only screen and (min-width: 600px) {
 		.img 
 		{
 			margin-top: 120PX;
-		  	margin-left: 80px;
-			margin-bottom: 50px;
-		}
-		
-		.button
-		{ 
-	  		
-			margin-left: 60px;
-		} 
-		
-
-	
+		  	margin-left: 20px;
+			margin-bottom: 30px;
+		}	
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 	.img
   	{
-  		margin-top: 160px;
+  		
 		margin-left: 20px;
 		margin-bottom: 30px;
  	}
@@ -105,18 +100,22 @@
 		.text
 	{ 
 	   
-	   margin-top: 20px;
-	   margin-left: 50px;
+	  
+	   margin-left: 170px;
 	}  
+	#container {
+    margin-top: 47px; 
+}
 } 
 /* Large devices (laptops/desktops, 992px */
 @media only screen and (min-width: 992px) {
   
+
 	.img
   	{
-  		margin-top: 160px;
+  		
   		margin-left: 80px;
-		margin-bottom: 50px;
+		margin-bottom: 30px;
   		
  
  	}
@@ -124,16 +123,18 @@
 	{ 	   
 	   margin-left: 100px;
 	} 
+	.text {
+    margin-left: 30%;
+}
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  
+ 
 	.img
   	{
-  		margin-top: 160px;
   		margin-left: 130px;
-		margin-bottom: 50px;
+		margin-bottom: 30px;
   		
  
  	}
@@ -142,5 +143,13 @@
 	   
 	   margin-left: 120px;
 	} 
+	.text {
+    margin-left: 30%;
 }
-	
+}
+
+
+#height {
+    height: 120px;
+    
+}
